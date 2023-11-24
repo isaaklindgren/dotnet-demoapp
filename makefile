@@ -4,7 +4,7 @@ IMAGE_REPO ?= isaaklindgren/dotnet-demoapp
 IMAGE_TAG ?= latest
 
 # Used by `deploy` target, sets Azure webap defaults, override as required
-AZURE_RES_GROUP ?= Edument
+AZURE_RES_GROUP ?= edument
 AZURE_REGION ?= northeurope
 AZURE_APP_NAME ?= isakscoolwebapp
 
