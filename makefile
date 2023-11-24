@@ -1,10 +1,10 @@
 # Used by `image`, `push` & `deploy` targets, override as required
 IMAGE_REG ?= ghcr.io
-IMAGE_REPO ?= isaaklindgren/dotnet-demoapp
+IMAGE_REPO ?= benc-uk/dotnet-demoapp
 IMAGE_TAG ?= latest
 
 # Used by `deploy` target, sets Azure webap defaults, override as required
-AZURE_RES_GROUP ?= edument
+AZURE_RES_GROUP ?= Edument
 AZURE_REGION ?= northeurope
 AZURE_APP_NAME ?= isakscoolwebapp
 
